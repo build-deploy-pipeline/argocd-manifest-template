@@ -1,6 +1,6 @@
 helmCharts:
-- name: ""
-  repo: "helm chart repo"
+- name: "fastapi"
+  repo: "https://build-deploy-pipeline.github.io/helm-charts/"
   version: 0.1.0
   releaseName: "example"
   namespace: "default"
